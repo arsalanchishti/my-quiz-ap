@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+fieldset h3{
+    padding: 10px 0px;
+}
+
+fieldset input{
+    margin: 10px;
+    display: initial;
+}
+
+.wrep{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6 );
+    width: 80%;
+}
+
+.wrep h1{
+    padding: 20px 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url('img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
